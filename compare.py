@@ -84,7 +84,7 @@ def main():
     output_path = Path.home() / "Downloads" / f"{output_name}.xlsx"
     wb.save(output_path)
 
-    print(f"\n✅ Excel created with conditional formatting & unique list. danieliscool:\n{output_path}")
+    print(f"\n✅ Excel created with conditional formatting & unique list.:\n{output_path}")
 
 if __name__ == "__main__":
     main()
